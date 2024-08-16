@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[DB connection]]>
+    </line>
+    <line>
+      <![CDATA[chromeBrowser has launched]]>
+    </line>
+    <line>
+      <![CDATA[launch browser]]>
+    </line>
+    <line>
+      <![CDATA[User  gets Login To app Successfully]]>
+    </line>
+    <line>
+      <![CDATA[==ORGANIZATION IS CREATED AND TC IS PASSED==]]>
+    </line>
+    <line>
+      <![CDATA[User  gets Logout From app Successfully]]>
+    </line>
+    <line>
+      <![CDATA[close browser]]>
+    </line>
+    <line>
+      <![CDATA[DB DISCONNECTION]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-13T12:19:31 IST" name="Default suite" finished-at="2024-08-13T12:20:44 IST" duration-ms="72789">
+    <groups>
+    </groups>
+    <test started-at="2024-08-13T12:19:31 IST" name="Default test" finished-at="2024-08-13T12:20:44 IST" duration-ms="72789">
+      <class name="vtiger.createOrganizationTest">
+        <test-method is-config="true" signature="bsconfig()[pri:0, instance:vtiger.createOrganizationTest@201a4587]" started-at="2024-08-13T12:19:31 IST" name="bsconfig" finished-at="2024-08-13T12:19:31 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DB connection]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bsconfig -->
+        <test-method is-config="true" signature="bcconfig()[pri:0, instance:vtiger.createOrganizationTest@201a4587]" started-at="2024-08-13T12:19:31 IST" name="bcconfig" finished-at="2024-08-13T12:19:41 IST" duration-ms="9849" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[chromeBrowser has launched]]>
+            </line>
+            <line>
+              <![CDATA[launch browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bcconfig -->
+        <test-method is-config="true" signature="loginToAPP()[pri:0, instance:vtiger.createOrganizationTest@201a4587]" started-at="2024-08-13T12:19:41 IST" name="loginToAPP" finished-at="2024-08-13T12:19:56 IST" duration-ms="15676" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User  gets Login To app Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToAPP -->
+        <test-method signature="createOrg()[pri:0, instance:vtiger.createOrganizationTest@201a4587]" started-at="2024-08-13T12:19:56 IST" name="createOrg" finished-at="2024-08-13T12:20:40 IST" duration-ms="43656" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==ORGANIZATION IS CREATED AND TC IS PASSED==]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="logutfromapp()[pri:0, instance:vtiger.createOrganizationTest@201a4587]" started-at="2024-08-13T12:20:40 IST" name="logutfromapp" finished-at="2024-08-13T12:20:43 IST" duration-ms="3188" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User  gets Logout From app Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logutfromapp -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:vtiger.createOrganizationTest@201a4587]" started-at="2024-08-13T12:20:43 IST" name="teardown" finished-at="2024-08-13T12:20:44 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="asconfig()[pri:0, instance:vtiger.createOrganizationTest@201a4587]" started-at="2024-08-13T12:20:44 IST" name="asconfig" finished-at="2024-08-13T12:20:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DB DISCONNECTION]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- asconfig -->
+      </class> <!-- vtiger.createOrganizationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
